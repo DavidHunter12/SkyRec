@@ -1,0 +1,20 @@
+{
+  "jquery": "empty:",
+  "jquery-ui": "empty:",
+  "bootstrap": "empty:",
+  "angular": "empty:",
+  "angular-cookies": "empty:",
+  "angular-resource": "empty:",
+  "angular-sanitize": "empty:",
+  "angular-animate": "empty:",
+  "angular-loading-bar":"empty:",
+  "angular-material":"empty:",
+  "angular-material-data-table":"empty:",
+	"angular-material-icons":"empty:",
+	"angular-aria":"empty:",
+	"angular-messages":"empty:",
+  "domReady": "empty:",
+  "angular-ui-router": "empty:",
+  "angular-couch-potato": "empty:",
+  "lodash": "empty:"
+}

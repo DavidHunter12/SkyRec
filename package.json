@@ -1,0 +1,48 @@
+{
+  "version": "1.0.0",
+  "private": true,
+  "name": "edu-lab-portal",
+  "edulab": {
+    "public": "./public/",
+    "plugin": "./public/plugin/",
+    "vendor": "./public/vendor/",
+    "temp": "./public/tmp/",
+    "build": "./public/build/"
+  },
+  "devDependencies": {
+    "bower": "^1.3.1",
+    "concurrently": "^3.1.0",
+    "http-server": "^0.6.1",
+    "karma": "^0.12.16",
+    "karma-chrome-launcher": "^0.1.4",
+    "karma-jasmine": "^0.1.5",
+    "lite-server": "~2.2.2",
+    "protractor": "~1.0.0",
+    "shelljs": "^0.2.6",
+    "tmp": "0.0.23"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+    "prestart": "npm install",
+    "start": "lite-server",
+    "dev": "concurrently  \"npm run start\" \"grunt watch\"",
+    "build": "concurrently  \"grunt\" \"npm run start\""
+  },
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "fs-extra": "^0.12.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-contrib-cssmin": "^0.13.0",
+    "grunt-contrib-requirejs": "^0.4.4",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^0.6.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-html2js": "^0.2.9",
+    "grunt-ng-annotate": "*",
+    "grunt-string-replace": "^1.2.0",
+    "lodash": "^2.4.1"
+  }
+}

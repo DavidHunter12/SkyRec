@@ -1,0 +1,31 @@
+{
+  "name": "cloud-ats-portal",
+  "version": "0.0.0",
+  "dependencies": {
+    "requirejs-domready": "~2.0.1",
+    "angular": "~1.4.0-rc.2",
+    "bootstrap": "~3.3.4",
+    "angular-resource": "~1.4.4",
+    "angular-cookies": "~1.4.4",
+    "angular-sanitize": "~1.4.4",
+    "angular-animate": "~1.4.4",
+    "angular-messages": "~1.4.4",
+    "angular-touch": "~1.4.4",
+    "angular-route": "~1.4.4",
+    "angular-ui-router": "~0.2.15",
+    "angular-loading-bar": "0.6.0",
+		"angular-material": "~1.0.2",
+		"angular-material-icons": "0.6.0",
+    
+    "jquery": "~2.1.1",
+    "lodash": "3.10.0",
+    "angular-couch-potato": "^0.2.3",
+    "requirejs": "~2.1.15"
+  },
+  "appPath": "app",
+  "resolutions": {
+    "jquery": "~2.0.3",
+    "bootstrap": "3.3.4",
+    "angular": "1.4.0-rc.2"
+  }
+}
